@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>h3 {color: blue;} </style>
+</head>
+<body>
+
+  <h3>Card elements</h3>
+
+  <user-card 
+    name="John Does"
+    avatar="https://randomuser.me/api/portraits/men/1.jpg"
+  > 
+    <div slot="email">johndoes@gmail.com</div>
+    <div slot="phone">555-555-555</div>
+  </user-card>
+
+  <user-card 
+    name="Jane Doe"
+    avatar="https://randomuser.me/api/portraits/women/7.jpg"
+  >
+    <div slot="email">janedoe@gmail.com</div>
+    <div slot="phone">565-575-585</div>
+  </user-card>
+  
+  <user-card 
+    name="Mary Doe"
+    avatar="https://randomuser.me/api/portraits/women/3.jpg"
+  >
+    <div slot="email">marydoe@gmail.com</div>
+    <div slot="phone">760-970-089</div>
+  </user-card>
+
+  <script src="userCard.js"></script>
+</body>
+</html>
